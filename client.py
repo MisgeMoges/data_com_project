@@ -2,7 +2,7 @@
 from socket import *
 
 def clientTCP():
-    serverName = '192.168.43.1'
+    serverName = '192.168.43.184'
     portNumber = 12300
     value = input('Enter a number between 1 and 100: ')
     clientSocket = socket(AF_INET, SOCK_STREAM)
